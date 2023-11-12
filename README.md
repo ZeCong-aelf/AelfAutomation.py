@@ -26,9 +26,9 @@ Setup `_url`,`_symbol_registrar_contract_address`,`_privateKey` in `Main.py`
 
 Run Main.py file with args
 
-- args[0]: command: `"SpecialSeed.add"`
-- args[1]: type of SpecialSeed `"uniq"` or `"notable"`
-- args[2]: `[optional]` pages of data to **RESEND**, values joined with `"," `
+- `args[0]`: command: `"SpecialSeed.add"`
+- `args[1]`: type of SpecialSeed `"uniq"` or `"notable"`
+- `args[2]`: `[optional]` pages of data to **RESEND**, values joined with `"," `
 
 ```shell
 python3 Main.py SpecialSeed.add uniq 2,4,5
@@ -51,8 +51,8 @@ output file content will like this:
 
 # Usage - Check special seed
 Run Main.py file with args:
-- args[0]: command: "SpecialSeed.check"
-- args[1]: result fileName
+- `args[0]`: command: "SpecialSeed.check"
+- `args[1]`: result fileName
 
 ```shell
 python3 Main.py SpecialSeed.check uniq_result_2023_11_11_16_10_10

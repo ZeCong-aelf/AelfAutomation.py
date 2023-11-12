@@ -19,7 +19,7 @@ Setup `_url`,`_symbol_registrar_contract_address`,`_privateKey` in `Main.py`
 
 # actions
 - `"SpecialSeed.add"`: Read txt file, Send transaction to node, Record a result file, Resend filed pages
-- `"SpecialSeed.add"`: Read result file, Query transaction result and print transaction result
+- `"SpecialSeed.check"`: Read result file, Query transaction result and print transaction result
 
 
 # Usage - Add special seed

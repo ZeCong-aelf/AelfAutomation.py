@@ -23,7 +23,7 @@ if __name__ == "__main__":
         seed_type = sys.argv[2] if len(sys.argv) > 2 else None
         resend_pages = sys.argv[3] if len(sys.argv) > 3 else None
         SymbolRegistrar(_url, _symbol_registrar_contract_address, _privateKey).do_add(seed_type, resend_pages)
-    elif command == "CheckSpecialSeed":
+    elif command == "SpecialSeed.check":
         if len(sys.argv) != 3:
             print("Usage: python Symbol.py Check <result_file>")
             sys.exit(1)
